@@ -1,3 +1,7 @@
+body {
+    color: antiquewhite
+}
+
 div {
     border: 8px solid black;
     margin: 16px;
