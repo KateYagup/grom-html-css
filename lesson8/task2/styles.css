@@ -2,9 +2,8 @@ div {
     height: 140px;
     width: 420px;
     padding: 20px;
-    border: 50px 100px;
+    border: 10px 20px;
     margin: 50px 100px;
     border-style: solid solid dashed dashed;
     border-color: firebrick chartreuse burlywood aqua;
-    background-color: bisque;
 }
