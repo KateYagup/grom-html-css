@@ -1,5 +1,5 @@
 body {
-    background: #bdc3c7;
+    background-color: #bdc3c7;
 }
 
 h1 {
@@ -23,7 +23,7 @@ input {
 }
 
 .hello {
-    background-color: white;
+    background-color: white !important;
 }
 
 #special {
