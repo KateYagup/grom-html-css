@@ -6,4 +6,5 @@ div {
     margin: 50px 100px;
     border-style: solid solid dashed dashed;
     border-color: firebrick chartreuse burlywood aqua;
+    background-color: bisque;
 }
