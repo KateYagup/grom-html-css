@@ -42,7 +42,7 @@ div {
 }
 
 .static-parent {
-    position: absolute;
+    position: static;
 }
 
 .relative-parent {
