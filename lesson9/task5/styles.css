@@ -3,28 +3,21 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 40px;
+    /* height: 40px; */
     width: 100%;
     z-index: 1;
 }
 
-.navigation {
-    /* height: 40px; */
-    /* position: fixed;
-    top: 0;
-    left: 0; */
-}
-
 .nav-list {
-    /* line-height: -40px; */
     list-style-type: none;
+    height: 40px;
 }
 
 .nav-item {
     float: left;
     margin-left: 16px;
     color: white;
-    line-height: 10px;
+    line-height: 40px;
 }
 
 .content {
