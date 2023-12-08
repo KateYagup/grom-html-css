@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <style>
+        .child,
+        .parent {
+            border: 2px solid black;
+            padding: 16px;
+        }
+        
+        .parent {
+            width: 300px;
+            height: 100px;
+            background-color: yellowgreen;
+        }
+        
+        .child {
+            background-color: yellow;
+            position: absolute;
+            top: 20px;
+            left: 50px;
+        }
+        
+        .separator {
+            height: 50px;
+            background-color: aqua;
+        }
+        
+        .static-parent {
+            position: static;
+        }
+        
+        .relative-parent {
+            position: relative;
+            top: 20px;
+            right: 50px;
+        }
+        
+        .absolute-parent {
+            position: absolute;
+            right: 50px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="separator"></div>
+    <!-- <div class="parent static-parent">
+        <div class="child">I am a child</div>
+    </div>
+    <div class="separator"></div>
+    <div class="parent relative-parent">
+        <div class="child">I am a child</div>
+    </div> -->
+    <div class="parent relative-parent">
+        <div class="child">I am a child</div>
+    </div>
+</body>
+
+</html>
