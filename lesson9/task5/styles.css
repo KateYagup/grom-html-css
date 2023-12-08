@@ -1,10 +1,18 @@
 .header {
     background-color: darkturquoise;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 40px;
+    width: 100%;
+    z-index: 1;
 }
 
 .navigation {
-    height: 40px;
+    /* height: 40px; */
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 
 .nav-list {
@@ -16,7 +24,7 @@
     float: left;
     margin-left: 16px;
     color: white;
-    line-height: 40px;
+    line-height: 10px;
 }
 
 .content {
@@ -30,7 +38,9 @@
     background-color: aquamarine;
     position: absolute;
     top: 50%;
-    left: 50%
+    left: calc(50% - 100px);
+    z-index: 0;
+    /* left: 50%; */
 }
 
 .ear {
